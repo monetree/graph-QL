@@ -9,7 +9,6 @@ app.use(cors());
 const knex = require('knex');
 
 
-
 const db = knex({
   client: 'mysql',
   connection: {
